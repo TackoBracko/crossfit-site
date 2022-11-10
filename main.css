@@ -1,0 +1,425 @@
+*, *::before, *::after{
+    box-sizing:border-box;
+}
+
+*{
+    margin:0;
+}
+
+html, body{
+    height:100%;
+}
+
+body{
+    display:flex;
+    flex-direction:column;
+    background-color: white;
+    font-family:sans-serif;
+}
+
+/*css index*/
+
+.site-header{
+    background-color:white;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.site-nav {
+    display: flex;
+}
+
+.site-nav a {
+    color:black;
+    text-decoration:none;
+    margin:20px;
+}
+
+.site-main{
+    display:flex;
+    flex-direction:column;
+}
+
+.site-section{
+    height:500px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
+
+.hero {
+    background-image: url(pictures/members1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.title {
+    display:flex;
+    justify-content:center;
+    color:white;
+    font-size:50px;
+}
+
+main a {
+    text-decoration: none;
+}
+
+.text-main {
+   border: 2px solid black;
+   border-radius: 50px;
+   background-color: red;
+   color:white;
+   padding:15px;
+   margin: 10px;
+}
+
+.section-media{
+    display:flex;
+}
+
+.container {
+    margin-left:auto;
+    margin-right:auto;
+    width:1000px;
+}
+
+.media-block {
+    display: flex;
+    align-items: center;
+    height: 200px;
+}
+
+.media-object {
+    margin: 20px;
+    font-size: 50px;
+}
+
+.section-site{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    height: 400px;
+}
+
+.part-one{
+    background-image: url(pictures/crossfitnyc2.jfif);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.first-list {
+    color:white;
+  }
+
+.text-section {
+    height:200px;
+    display:flex;
+    align-items: center;
+    justify-content:center ;
+}
+
+.part-two {
+    background-color:black;
+    color:white;
+    font-size: 30px;
+}
+
+.part-three {
+    background-image:url(pictures/crossfitnyc3.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.part-four {
+    display:flex;
+    flex-direction:column;
+    background-color:rgb(194, 193, 193);
+}
+
+.columns{
+    display:flex;
+    text-align: center;
+}
+
+.card{
+    border:1px solid black;
+    padding:20px;
+    margin:10px;
+    background-color:white;
+}
+
+.card-p {
+    color:grey;
+    margin: 20px;
+}
+
+.card a {
+    color:black;
+    border:2px solid black;
+    border-radius:50px;
+    padding:10px;
+    background-color:white;
+    text-align: center;
+}
+
+.part-five {
+    background-image: url(pictures/crossfitnyc6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-list {
+    list-style: none;
+    display:flex;
+}
+
+.blockquote {
+    color:grey;
+    margin:15px;
+}
+
+.lastsection .container {
+    display:flex;
+}
+
+.lastsection .container .column {
+    width:33%;
+}
+
+.lastul1 {
+    list-style: none;
+}
+
+.lastul1 a {
+    text-decoration: none;
+}
+
+.black {
+    background-color:black;
+}
+
+.footer {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.footerp {
+    color:white;
+}
+
+/*css about*/
+
+.hero-two {
+    background-image: url(pictures/aboutus.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.title-two{
+    color:white;
+    text-align: center;
+}
+
+.section-about {
+    background-color:rgb(194, 193, 193);
+    padding-top: 20px;
+}
+
+.section-about img {
+    float:left;
+    height: 400px;
+    width: 500px;
+    margin: 15px;
+}
+
+.div-about {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    margin: 15px;
+}
+
+.section-starthere {
+    background-color:black;
+    height:250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.get-started {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.starthereh {
+    color:white;
+    margin:10px;
+    
+}
+
+.startherep {
+    color:white;
+    border:1px solid white;
+    border-radius:50px;
+    text-align: center;
+    padding:10px;
+    margin:10px;
+}
+
+/*css pricing*/
+
+.hero-three {
+    background-image: url(pictures/pricing.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.paragraph {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align: center;
+}
+
+.pricing-p {
+    color:grey;
+    margin:15px;
+}
+
+.pricing-p2, .pricing-ul {
+    color:red;
+    margin:15px;
+} 
+
+.pricing-h {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.div3 {
+    border:1px solid black;
+    text-align: center;
+    padding:15px;
+    margin:10px;
+}
+
+.row {
+    display: flex;
+}
+
+.pricing-list {
+    list-style: none;
+}
+
+.pricing-list li {
+    margin:10px;
+}
+
+.red {
+    color:red;
+}
+.grey {
+    text-align: center;
+}
+
+/*css dropin*/
+
+.hero-four{
+    background-image: url(pictures/dropinnyc.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.different {
+    background-color:white;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+}
+
+.title-start {
+    color:red;
+    font-size:40px;
+    margin-bottom: 10px;
+}
+
+.different a {
+    margin: 5px;
+}
+
+/*css new to crossfit*/
+
+.hero-five {
+    background-image: url(pictures/newtocrossfit.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.text-h {
+    text-align: center;
+    margin: 15px;
+    font-size: 40px;
+}
+
+.text-p {
+    color:grey;
+    text-align: center;
+}
+
+.new-section {
+    background-color: rgb(194, 193, 193);
+}
+
+.new-list {
+    display:flex;
+}
+
+.new-list p {
+    color:white;
+    margin:15px;
+}
+
+/*css more info*/
+
+.hero-six {
+    background-image: url(pictures/members.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.text-p strong {
+    color:black;
+}
+
+.new-text {
+    text-align: center;
+    margin: 15px;
+}
+
+/*css privacy */
+
+.hero-seven {
+    background-image: url(pictures/privacy.webp);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.site-privacy {
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+}
+
+.site-privacy p {
+    margin:15px;
+}
